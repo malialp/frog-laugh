@@ -34,9 +34,21 @@ const App = () => {
   };
 
   return (
-    <div className="bg-green-500 h-full">
+    <div className="bg-[#1EAE53] h-full">
       <div className="container mx-auto h-full flex items-center justify-center">
         <img onClick={laugh} src={frames[frog]} className="cursor-pointer" />
+        <span className="fixed bottom-0 left-0 w-full text-center py-2 opacity-80">
+          Created by{" "}
+          <a
+            className="text-[#125525] hover:underline duration-200"
+            id="github-link"
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/malialp/frog-laugh"
+          >
+            malialp
+          </a>
+        </span>
       </div>
     </div>
   );
