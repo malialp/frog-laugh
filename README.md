@@ -1,3 +1,3 @@
 # Laughing Frog
 
-[LAUGH](https://github.com.malialp)
+[LAUGH](https://frog-laugh.vercel.app/)
