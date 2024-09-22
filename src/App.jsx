@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { useState } from "react";
 
 const frames = [
@@ -50,6 +51,7 @@ const App = () => {
           </a>
         </span>
       </div>
+      <Analytics />
     </div>
   );
 };
